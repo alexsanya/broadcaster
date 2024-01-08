@@ -1,0 +1,18 @@
+{
+  "name": "broadcaster",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Broadcast gas orders",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pino": "^8.17.2",
+    "restify": "^11.1.0",
+    "restify-pino-logger": "^3.0.0",
+    "socket.io": "^4.7.3"
+  }
+}
