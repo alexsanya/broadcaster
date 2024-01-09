@@ -15,7 +15,7 @@ function run() {
   server.use(pino)
   server.use(restify.plugins.bodyParser())
 
-  const io = new Server(server, {
+  const io = new Server(server.server, {
     // options
   });
 
